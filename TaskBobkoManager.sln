@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBobkoManager.Web", "TaskBobkoManager.Web\TaskBobkoManager.Web.csproj", "{045A468C-AA58-4235-96B0-473493C053E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{57FF6A06-E02E-4C55-94F1-620D3F57A9FE} = {57FF6A06-E02E-4C55-94F1-620D3F57A9FE}
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F} = {5F4D9DA5-90EC-4856-9067-CB931B29BA9F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBobkoManager.Infrastructure", "TaskBobkoManager.Infrastructure\TaskBobkoManager.Infrastructure.csproj", "{57FF6A06-E02E-4C55-94F1-620D3F57A9FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F} = {5F4D9DA5-90EC-4856-9067-CB931B29BA9F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskBobkoManager.Core", "TaskBobkoManager.Core\TaskBobkoManager.Core.csproj", "{5F4D9DA5-90EC-4856-9067-CB931B29BA9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{045A468C-AA58-4235-96B0-473493C053E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045A468C-AA58-4235-96B0-473493C053E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045A468C-AA58-4235-96B0-473493C053E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045A468C-AA58-4235-96B0-473493C053E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FF6A06-E02E-4C55-94F1-620D3F57A9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FF6A06-E02E-4C55-94F1-620D3F57A9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FF6A06-E02E-4C55-94F1-620D3F57A9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FF6A06-E02E-4C55-94F1-620D3F57A9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4D9DA5-90EC-4856-9067-CB931B29BA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7ABD162-6B48-42F9-B923-BDB8E882E12A}
+	EndGlobalSection
+EndGlobal
