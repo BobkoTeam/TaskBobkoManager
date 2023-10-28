@@ -17,5 +17,8 @@ namespace TaskBobkoManager.Infrastructure.Context
             base.OnModelCreating(builder);
             
         }
+        public dbContext(DbContextOptions<dbContext> options) : base(options) { }
+        public DbSet<Task> Tasks { get; set; }
+       
     }
 }
