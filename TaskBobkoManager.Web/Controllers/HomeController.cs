@@ -6,6 +6,7 @@ namespace TaskBobkoManager.Web.Controllers
 {
     public class HomeController : Controller
     {
+        int val = 0;
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
