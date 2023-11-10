@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TaskBobkoManager.Core\TaskBobkoManager.Core.csproj" />
+    <ProjectReference Include="..\TaskBobkoManager.Infrastructure\TaskBobkoManager.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
