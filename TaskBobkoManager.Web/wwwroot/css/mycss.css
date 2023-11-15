@@ -1,0 +1,16 @@
+﻿h1 {
+    color: aquamarine;
+}
+
+body {
+    background-color: #303440;
+}
+
+.logotext {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: aliceblue;
+}
+.backgroundBlack {
+    background-color: #1f2126;
+}

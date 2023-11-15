@@ -1,24 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-@*<div class="container">
-<header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand logotext" href="#">TBM</a>
-            <div>
-                <button class="btn btn-outline-success" type="submit">Log In</button>
-                <button type="button" class="btn btn-success">Sign Up</button>
-            </div>
-        </div>
-    </nav>
-</header>
-</div>*@
-
-
-
-@*Register Form*@
-<div class="container">
+﻿<div class="container">
     <div class="row justify-content-center align-items-center mt-5">
         <div class="">
             <section class="vh-100 gradient-custom">
@@ -30,12 +10,8 @@
 
                                     <div class="mb-md-5 mt-md-4 pb-5">
 
-                                        <h2 class="fw-bold mb-2 text-uppercase">Register</h2>
-                                       
-                                        <div class="form-outline form-white mb-4">
-                                            <label class="form-label" for="typeName">Name</label>
-                                            <input type="email" id="typeName" class="form-control form-control-lg" />
-                                        </div>
+                                        <h2 class="fw-bold mb-2 text-uppercase">LogIn</h2>
+
 
                                         <div class="form-outline form-white mb-4">
                                             <label class="form-label" for="typeEmailX">Email</label>
@@ -47,17 +23,17 @@
                                             <input type="password" id="typePasswordX" class="form-control form-control-lg" />
                                         </div>
 
-                                       
+
 
                                         <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
 
-                                       
+
 
                                     </div>
 
                                     <div>
                                         <p class="mb-0">
-                                            Do you have an account? <a asp-controller="Home" asp-action="SignIn" class="text-white-50 fw-bold">Sign In</a>
+                                            Do you have an account? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
                                         </p>
                                     </div>
 
@@ -67,6 +43,6 @@
                     </div>
                 </div>
             </section>
-</div>
+        </div>
     </div>
 </div>
