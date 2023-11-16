@@ -33,5 +33,13 @@ namespace TaskBobkoManager.Web.Controllers
         {
             return View("login");
         }
+        public IActionResult SignUp() 
+        {
+            return View("Index");
+        }
+        public IActionResult DashboardView() 
+        {
+            return View("Dashboard");
+        }
     }
 }
